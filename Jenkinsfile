@@ -3,7 +3,7 @@ pipeline {
      stages {
          stage('Build') {
               steps {
-                  sh 'echo It's just a simple HTML...'
+                  sh 'echo "Just HTML"'
               }
         }
          stage('HTML Lint') {
